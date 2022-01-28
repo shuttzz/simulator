@@ -19,8 +19,8 @@
             android:id="@+id/rvMatches"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:listitem="@layout/match_item"
-            tools:itemCount="3"/>
+            tools:itemCount="3"
+            tools:listitem="@layout/match_item" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
@@ -33,5 +33,6 @@
         android:contentDescription="@string/cd_simulate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_simulate" />
+        app:srcCompat="@drawable/ic_simulate"
+        app:tint="@color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
